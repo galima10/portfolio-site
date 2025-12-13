@@ -1,0 +1,1 @@
+import{u as i,p as n,j as e}from"./index-SbmcFWCK.js";function r(){const{id:r}=i(),s=n.find(i=>i.id===r);return s?e.jsxs("div",{children:[e.jsx("h1",{children:s.name}),e.jsx("p",{children:s.description})]}):e.jsx("p",{children:"Projet introuvable"})}export{r as default};
