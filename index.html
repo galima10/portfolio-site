@@ -1,12 +1,20 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio</title>
-    <script type="module" crossorigin src="./assets/index-3BQJ6gAR.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-Xremth_K.css">
+    <title>Magali MAI - Mon portfolio</title>
+
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const redirect = params.get("redirect");
+
+      if (redirect) {
+        window.history.replaceState(null, "", redirect);
+      }
+    </script>
+    <script type="module" crossorigin src="./assets/index-B6nJIdMn.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DXrc9kdP.css">
   </head>
   <body>
     <div id="root"></div>
